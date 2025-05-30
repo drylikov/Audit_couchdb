@@ -1,0 +1,13 @@
+{ "name": "audit_couchdb"
+, "version": "0.1.4"
+, "author": { "name": "Denis Rylikov"
+            , "email": "denis.rylikov@protonmail.com" }
+, "description": "Detect security issues in an Apache CouchDB server"
+, "homepage": ""
+, "repository": { "type": "git"
+                , "url": "git://github.com/drylikov/audit_couchdb" }
+, "dependencies": { "optimist": "*" }
+, "engines": [ "node" ]
+, "main": "audit_couchdb"
+, "bin": {"audit_couchdb": "./cli.js"}
+}
